@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <h1>NEURA-SYNC 🤖✨</h1>
+  <h1>NEURA-SYNC </h1>
   <p>
     <strong>Tu empresa nunca duerme. Tu soporte, tampoco.</strong>
   </p>
@@ -11,11 +11,11 @@
 
 <br />
 
-## 📋 Sobre el Proyecto
+## Sobre el Proyecto
 
 **NEURA-SYNC** es el diseño de una Landing Page enfocada en conversión técnica, cuyo objetivo es presentar el despliegue de agentes virtuales que resuelven tickets de soporte sin intervención humana. El diseño transmite tecnología de punta a través de micro-animaciones, "Glassmorphism", y contrastes eléctricos.
 
-### ✨ Características Clave del Diseño
+### Características Clave del Diseño
 
 - **Cyber-Minimalism (Dark Mode)**: Fondo `#050505` con halos de luz (Glow effects) y acentos en Azul Cobalto (`#0047FF`).
 - **Glassmorphism**: Componentes flotantes y tarjetas "esmeriladas" para agrupar los componentes de información visual.
@@ -25,7 +25,7 @@
 
 ---
 
-## 🛠️ Tecnologías Empleadas
+## Tecnologías Empleadas
 
 Este proyecto ha sido desarrollado utilizando tecnologías base para maximizar el rendimiento y la facilidad de mantenimiento sin depender de librerías externas pesadas.
 
@@ -40,7 +40,7 @@ Este proyecto ha sido desarrollado utilizando tecnologías base para maximizar e
 
 ---
 
-## 🚀 Cómo Empezar (Desarrollo Local)
+## Cómo Empezar (Desarrollo Local)
 
 Ejecutar esta Landing Page en un entorno local es extremadamente sencillo, ya que no requiere ningún proceso de compilación (*Build step*).
 
@@ -63,7 +63,7 @@ Ejecutar esta Landing Page en un entorno local es extremadamente sencillo, ya qu
 
 ---
 
-## 🎨 Tipografía e Iconografía
+## Tipografía e Iconografía
 
 - **Tipografía**: La paleta tipográfica está soportada al 100% por [Inter](https://fonts.google.com/specimen/Inter) vía Google Fonts.
 - **Íconos**: Se utiliza la dependencia superliviana de [@tabler/icons](https://tablericons.com/) inyectada mediante un sistema de CDN y SVGs estáticos incrustados para alto contraste.
@@ -71,5 +71,5 @@ Ejecutar esta Landing Page en un entorno local es extremadamente sencillo, ya qu
 ---
 
 <div align="center">
-  <sub>Desarrollado para revolucionar la interacción B2B. <br /><b>Powered by Gemini 3 ✨</b></sub>
+  <sub>Desarrollado para revolucionar la interacción B2B.></sub>
 </div>
