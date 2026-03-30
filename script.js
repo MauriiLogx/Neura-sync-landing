@@ -1,8 +1,8 @@
-// NEURA-SYNC Interactivity & Animation Scripts
+// Scripts de interactividad y animación NEURA-SYNC
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    // Intersection Observer for Scroll Animations
+    // Observadora de intersecciones para animaciones de desplazamiento
     const observerOptions = {
         root: null,
         rootMargin: '0px',
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    // Apply initial states and observe
+    // Aplicar estados iniciales y observar
     const animElements = document.querySelectorAll('.bento-card, .pricing-card, .demo-text, .demo-visual');
     animElements.forEach(el => {
         el.style.opacity = '0';
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         animateOnScroll.observe(el);
     });
 
-    // Human vs AI Bar Animation on scroll
+    // Animación de barra Humano vs AI al desplazar
     const progressObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (compContainer) progressObserver.observe(compContainer);
 
 
-    // Simulate Dynamic Dashboard Stats
+    // Simular estadísticas de panel dinámico
     const formatCurrency = (val) => new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 }).format(Math.round(val));
     
     let savingsValue = 4250000;
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     setInterval(() => {
         if (!savingsElement) return;
-        // Randomly bump savings slightly to look alive
+        // Aleatoriamente golpea ligeramente los ahorros para parecer viva
         savingsValue += (Math.random() * 2000);
         savingsElement.innerText = formatCurrency(savingsValue);
     }, 3000);
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 2000);
     
-    // Smooth scroll for anchor links
+    // Scroll suave para enlaces de anclaje
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
